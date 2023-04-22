@@ -1,7 +1,7 @@
 # Projeto-Integrador-III 
 
 Espesificações :
-  Esse projeto tem o intuito de realiza analises dos datasite disponibilizado pelo site 'kaggle' 
+  Esse projeto tem o intuito de realiza analises dos datasets disponibilizado pelo site 'kaggle' 
   - https://www.kaggle.com/datasets/mateusdmachado/csgo-professional-matches
 
 ## Requisitos necessarios para rodar o projeto 
