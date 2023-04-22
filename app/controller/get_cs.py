@@ -1,6 +1,4 @@
 from connection.security.protect_database import Protect
-from api.liquipediapy.liquipediapy import liquipedia
-from api.liquipediapy import counterstrike
 from bs4 import BeautifulSoup
 import time
 

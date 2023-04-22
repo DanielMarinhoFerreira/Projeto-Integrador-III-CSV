@@ -1,9 +1,20 @@
 from model.members import Members
 
+<<<<<<< Updated upstream
+class teams:
+    def __init__(self,
+                 teamID:int=None,
+                 name:str=None,
+                 coach:str=None,
+                 membersID:membersID=None
+                 ):
+        self.set_teamID(teamID)
+=======
 class teams(Members):
     def __init__(self, Id_teams:int=None, name:str=None, coach:str=None):
         super().__init__()
         self.set_Id_teams(Id_teams)
+>>>>>>> Stashed changes
         self.set_name(name)
         self.set_coach(coach) 
         
