@@ -15,28 +15,29 @@ Espesificações :
   
   
 <a name="ambiente"></a>
-## Criar Maquina Virtual Na Pasta aonde Situa Projeto
+## Criar Ambiente Virtual
 
+ - utilizar comando abaixo para criar ambiente
 ```py -m venv env ```
 
  - ativação da ambiente virtual 
-    ``` env\Scripts\activate.bat ```
+``` env\Scripts\activate.bat ```
   
-  Para mais informações:
-  - documentation https://docs.python.org/3/library/venv.html
+  - Para mais informações:
+  [documentation https://docs.python.org/3/library/venv.html]
     
 <a name="requirements"></a>
-## Instalação Arquivo requirements.txt
+## Instalação requirements.txt
 
-  obs.: Obirgatorios realizar esse processo. 
+  obs.: Obrigatório realizar esse processo. 
 
  ``` pip install -r requirements.txt ```
 
- Pra mais informações 
- - Documentation https://pypi.org/project/requests/
+ - Pra mais informações
+  [Documentation https://pypi.org/project/requests/]
 
 <a name="MySql"></a>
-## Instalação  MySql na Sua Maquina
+## Instalação  MySql
 
 
 Pra mais informações 
@@ -45,3 +46,4 @@ Pra mais informações
  
  <a name="SQL"></a>
  ## Executar os arquivos da pasta SQL
+ 
