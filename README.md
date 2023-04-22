@@ -7,11 +7,11 @@ Espesificações :
 ## Requisitos necessarios para rodar o projeto 
  
 - [Criar ambiente Virtual](#ambiente)
-- [realizar instalação do arquivo requirements.txt](#requirements)
-- [ter o banco de dados MySql instalado na sua maquina](#MySql)
-- [rodar os arquivos da pasta SQL para criar as tabelas](#SQL)
-- [confirudar (db.env) com as informações do seu banco MySql](#connetion)
-- [Estrar os DataSet do zip](#DataSet)
+- [Instalação requirements.txt](#requirements)
+- [Instalação  MySql](#MySql)
+- [Criar tabela no Banco](#SQL)
+- [confirudar (db.env)](#connetion)
+- [DataSet do zip](#DataSet)
   
   
 <a name="ambiente"></a>
@@ -45,5 +45,5 @@ Pra mais informações
  - Como obter o MySQL https://dev.mysql.com/doc/refman/8.0/en/getting-mysql.html
  
  <a name="SQL"></a>
- ## Executar os arquivos da pasta SQL
- 
+ ## Criar tabela no Banco
+
