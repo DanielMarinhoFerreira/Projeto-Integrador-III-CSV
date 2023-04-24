@@ -1,6 +1,6 @@
 # Projeto-Integrador-III 
 
-Espesificações :
+Especificações :
   Esse projeto tem o intuito de realiza analises dos datasets disponibilizado pelo site 'kaggle' 
   - https://www.kaggle.com/datasets/mateusdmachado/csgo-professional-matches
 
@@ -10,8 +10,9 @@ Espesificações :
 - [Instalação requirements.txt](#requirements)
 - [Instalação  MySql](#MySql)
 - [Criar tabela no Banco](#SQL)
-- [confirudar (db.env)](#connetion)
+- [configurar (db.env)](#connetion)
 - [DataSet do zip](#DataSet)
+- [Load File](#LoadFile)
   
   
 <a name="ambiente"></a>
@@ -46,4 +47,19 @@ Pra mais informações
  
  <a name="SQL"></a>
  ## Criar tabela no Banco
+ 
+ Usar o arquivo create_tables, dentro da pasta sql, para criar as tabelas necessárias para receber os dados do csv.
+ 
+ <a name="DataSet"></a>
+ ## DataSet no zip
+ 
+ É necessário colocar os arquivos .csv que estão compactados para fazer o load file dentro do bd, pois foram tratados especificamente para este caso, mas mantendo os mesmos dados.
+ Obs.: Não será possível usar o dataset do link.
 
+<a name="LoadFile"></a>
+## Load File
+
+Para realizar o Load File, é preciso:
+
+- Colocar os arquivos .csv no caminho 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/', pois o MySQL tem uma trava de segurança para arquivos de outros diretórios.
+- Rodar o load_files, que conta na mesma pasta sql do create_tables.
