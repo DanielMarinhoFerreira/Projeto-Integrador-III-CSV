@@ -4,7 +4,7 @@ use csgo;
 
 -- drop table players;
 CREATE TABLE players (
-  Date_ date,
+  Date_ VARCHAR(255),
   player_name VARCHAR(255),
   team VARCHAR(255),
   opponent VARCHAR(255),
@@ -111,7 +111,7 @@ CREATE TABLE players (
 
 -- drop table results;
 CREATE TABLE results (
-  Date_ DATE,
+  Date_ VARCHAR(255),
   team_1 VARCHAR(255),
   team_2 VARCHAR(255),
   _map VARCHAR(255),
@@ -134,7 +134,7 @@ CREATE TABLE results (
 
 -- drop table economy;
 CREATE TABLE economy (
-  Date_ DATE,
+  Date_ VARCHAR(255),
   match_id INT,
   event_id INT,
   team_1 VARCHAR(255),
@@ -237,7 +237,7 @@ CREATE TABLE economy (
 
 -- drop table picks;
 CREATE TABLE picks (
-  Date_ DATE,
+  Date_ VARCHAR(255),
   team_1 VARCHAR(255),
   team_2 VARCHAR(255),
   inverted_teams INT,
