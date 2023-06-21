@@ -63,3 +63,6 @@ Para realizar o Load File, é preciso:
 
 - Colocar os arquivos .csv no caminho 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/', pois o MySQL tem uma trava de segurança para arquivos de outros diretórios.
 - Rodar o load_files, que conta na mesma pasta sql do create_tables.
+
+# Vídeo Informativo Sobre Projeto 
+explicação sobre projeto: https://youtu.be/zFbl3DMB4L4
